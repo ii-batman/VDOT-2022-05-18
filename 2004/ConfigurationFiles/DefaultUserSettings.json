@@ -235,47 +235,5 @@
         "PropertyType": "DWORD",
         "PropertyValue": 1,
         "SetProperty": "True"
-    },
-    {
-        "HivePath": "HKLM:\\VDOT_TEMP\\Software\\Microsoft\\InputPersonalization\\TrainedDataStore",
-        "KeyName": "HarvestContacts",
-        "PropertyType": "DWORD",
-        "PropertyValue": 0,
-        "SetProperty": "True"
-    },
-    {
-        "HivePath": "HKLM:\\VDOT_TEMP\\Software\\Microsoft\\Personalization\\Settings",
-        "KeyName": "AcceptedPrivacyPolicy",
-        "PropertyType": "DWORD",
-        "PropertyValue": 0,
-        "SetProperty": "True"
-    },
-    {
-        "HivePath": "HKLM:\\VDOT_TEMP\\Software\\Microsoft\\Windows\\CurrentVersion\\UserProfileEngagement",
-        "KeyName": "ScoobeSystemSettingEnabled",
-        "PropertyType": "DWORD",
-        "PropertyValue": 0,
-        "SetProperty": "True"
-    },
-    {
-        "HivePath": "HKLM:\\VDOT_TEMP\\Software\\Microsoft\\Windows\\CurrentVersion\\SearchSettings",
-        "KeyName": "IsAADCloudSearchEnabled",
-        "PropertyType": "DWORD",
-        "PropertyValue": 0,
-        "SetProperty": "True"
-    },
-    {
-        "HivePath": "HKLM:\\VDOT_TEMP\\Software\\Microsoft\\Windows\\CurrentVersion\\SearchSettings",
-        "KeyName": "IsDeviceSearchHistoryEnabled",
-        "PropertyType": "DWORD",
-        "PropertyValue": 0,
-        "SetProperty": "True"
-    },
-    {
-        "HivePath": "HKLM:\\VDOT_TEMP\\Software\\Microsoft\\Windows\\CurrentVersion\\SearchSettings",
-        "KeyName": "IsMSACloudSearchEnabled",
-        "PropertyType": "DWORD",
-        "PropertyValue": 0,
-        "SetProperty": "True"
     }
 ]
