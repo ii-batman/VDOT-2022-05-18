@@ -272,7 +272,7 @@ PROCESS {
 
     # Apply appearance customizations to default user registry hive, then close hive file
     # Apply appearance customizations to default user registry hive, then close hive file
-    If ($Optimizations -contains "DefaultUserSettings" -or $Optimizations -contains "All")
+    If ($Optimizations -contains "DefaultUserSettings")
     {
         If (Test-Path .\ConfigurationFiles\DefaultUserSettings.json)
         {
