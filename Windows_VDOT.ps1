@@ -438,7 +438,7 @@ PROCESS {
 
     #region Network Optimization
     # LanManWorkstation optimizations
-    If ($Optimizations -contains "NetworkOptimizations")
+    If ($Optimizations -contains "NetworkOptimizations" -or $Optimizations -contains "All")
     {
         $NetworkOptimizationsFilePath = ".\ConfigurationFiles\LanManWorkstation.json"
         If (Test-Path $NetworkOptimizationsFilePath)
@@ -505,7 +505,7 @@ PROCESS {
         # NIC Advanced Properties performance settings for network biased environments
         Write-EventLog -EventId 70 -Message "Configuring Network Adapter Buffer Size" -LogName 'Virtual Desktop Optimization' -Source 'NetworkOptimizations' -EntryType Information
         Write-Host "[VDI Optimize] Configuring Network Adapter Buffer Size" -ForegroundColor Cyan
-        Set-NetAdapterAdvancedProperty -DisplayName "Send Buffer Size" -DisplayValue 4MB
+        # Set-NetAdapterAdvancedProperty -DisplayName "Send Buffer Size" -DisplayValue 4MB
         <#  NOTE:
             Note that the above setting is for a Microsoft Hyper-V VM.  You can adjust these values in your environment...
             by querying in PowerShell using Get-NetAdapterAdvancedProperty, and then adjusting values using the...
