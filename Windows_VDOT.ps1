@@ -438,7 +438,7 @@ PROCESS {
 
     #region Network Optimization
     # LanManWorkstation optimizations
-    If ($Optimizations -contains "NetworkOptimizations" -or $Optimizations -contains "All")
+    If ($Optimizations -contains "NetworkOptimizations")
     {
         $NetworkOptimizationsFilePath = ".\ConfigurationFiles\LanManWorkstation.json"
         If (Test-Path $NetworkOptimizationsFilePath)
