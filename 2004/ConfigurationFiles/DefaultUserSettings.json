@@ -221,19 +221,5 @@
         "PropertyType": "DWORD",
         "PropertyValue": 1,
         "SetProperty": "True"
-    },
-    {
-        "HivePath": "HKLM:\\VDOT_TEMP\\Software\\Microsoft\\InputPersonalization",
-        "KeyName": "RestrictImplicitInkCollection",
-        "PropertyType": "DWORD",
-        "PropertyValue": 1,
-        "SetProperty": "True"
-    },
-    {
-        "HivePath": "HKLM:\\VDOT_TEMP\\Software\\Microsoft\\InputPersonalization",
-        "KeyName": "RestrictImplicitTextCollection",
-        "PropertyType": "DWORD",
-        "PropertyValue": 1,
-        "SetProperty": "True"
     }
 ]
