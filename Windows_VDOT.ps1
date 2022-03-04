@@ -327,8 +327,9 @@ PROCESS {
                         } 
                     }
                 }
-
-                & REG UNLOAD HKLM\VDOT_TEMP | Out-Null
+                 [GC]::Collect()
+                Start-Process reg -ArgumentList "UNLOAD HKLM\VDOT_TEMP" -PassThru -Wait
+               # & REG UNLOAD HKLM\VDOT_TEMP | Out-Null
             }
             Else
             {
