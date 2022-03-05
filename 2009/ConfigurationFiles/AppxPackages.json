@@ -6,6 +6,18 @@
     "Description": "Microsoft News app"
   },
   {
+    "AppxPackage": "Microsoft.MixedReality.Portal",
+    "VDIState": "Disabled",
+    "URL": "https://www.microsoft.com/en-us/p/microsoft-news/9wzdncrfhvfw",
+    "Description": "Microsoft MixedReality Portal"
+  },
+  {
+    "AppxPackage": "Microsoft.Microsoft3DViewer",
+    "VDIState": "Disabled",
+    "URL": "https://www.microsoft.com/en-us/p/microsoft-news/9wzdncrfhvfw",
+    "Description": "Microsoft 3D Viewerp"
+  },
+  {
     "AppxPackage": "Microsoft.BingWeather",
     "VDIState": "Disabled",
     "URL": "https://www.microsoft.com/en-us/p/msn-weather/9wzdncrfj3q2",
