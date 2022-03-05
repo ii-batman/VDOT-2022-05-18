@@ -1,5 +1,11 @@
 [
   {
+    "AppxPackage": "Microsoft.WindowsStore",
+    "VDIState": "Disabled",
+    "URL": "https://www.microsoft.com/en-us/p/microsoft-news/9wzdncrfhvfw",
+    "Description": "Microsoft WindowsStore"
+  },
+  {
     "AppxPackage": "Microsoft.549981C3F5F10",
     "VDIState": "Disabled",
     "URL": "https://www.microsoft.com/en-us/p/microsoft-news/9wzdncrfhvfw",
